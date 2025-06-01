@@ -2,7 +2,7 @@
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/jamie/vista)](https://github.com/jamie/vista)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![CI Status](https://img.shields.io/github/actions/workflow/status/jamie/vista/ci.yml?branch=main&label=CI)](https:/## Contributing
+[![CI Status](https://img.shields.io/github/actions/workflow/status/jamie/vista/ci.yml?branch=main&label=CI)](https://github.com/jamie/vista/actions)
 
 Vista is in early development. If you're interested in using or contributing, please open an issue or start a discussion.
 
