@@ -1,6 +1,5 @@
 package resource
 
-// MockResources returns a map of repository IDs to a map of resource IDs to resources
 func MockResources() map[string]map[string]Resource {
 	return map[string]map[string]Resource{
 		"ecr-main": {
