@@ -1,6 +1,5 @@
 package repo
 
-// MockRepositories returns a map of mock repositories for testing and development
 func MockRepositories() map[string]Repository {
 	return map[string]Repository{
 		"ecr-main": {
@@ -20,7 +19,6 @@ func MockRepositories() map[string]Repository {
 	}
 }
 
-// GetRepository returns a repository by ID or nil if not found
 func GetRepository(id string) *Repository {
 	repos := MockRepositories()
 	if repo, exists := repos[id]; exists {
@@ -29,7 +27,6 @@ func GetRepository(id string) *Repository {
 	return nil
 }
 
-// GetAllRepositories returns a slice of all repositories
 func GetAllRepositories() []Repository {
 	repos := MockRepositories()
 	result := make([]Repository, 0, len(repos))
